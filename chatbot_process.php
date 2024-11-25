@@ -19,7 +19,7 @@ if (!isset($data->message)) {
 $message = $data->message;
 
 // Initialize Gemini API client
-$geminiApiKey = 'AIzaSyBzLwUeTVRe7DHAp8pbGvCs64xg6MIQK1w'; // Replace with your actual Gemini API key
+$geminiApiKey = 'your actual Gemini API key'; // Replace with your actual Gemini API key
 $client = new Client($geminiApiKey);
 
 try {
